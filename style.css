@@ -211,6 +211,7 @@ footer {
     gap: 40px 30px;
     /*column-gap: 40px;*/
     /*row-gap: 30px;*/
+    justify-content: center;
 }
 
 .calculator {
@@ -334,5 +335,8 @@ footer {
     }
     .plus {
         grid-area: 4 / 4 / span 2;
+    }
+    .equals {
+        grid-column: 3 / 5;
     }
 }
